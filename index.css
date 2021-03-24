@@ -1,0 +1,31 @@
+.main {
+    background-color: rgb(204, 204, 255);
+    margin: auto;
+    width: 35%;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.head {
+    text-decoration: underline;
+}
+
+.f {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 15px;
+    text-align: right;
+}
+
+.btn1 {
+    background-color: rgb(255, 183, 111);
+    font-weight: bold;
+    width: 202px;
+}
+
+.t {}
+
+.tb {
+    border-collapse: separate;
+}
