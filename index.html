@@ -1,67 +1,58 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link href='index.css' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8" />
+    <title>ST3-Mini Project</title>
+    <link rel="stylesheet" href="index.css" />
+
 </head>
 
 <body>
-    <br>
-    <div class="main">
-        <p class="head"> &emsp;&emsp;&emsp;&emsp;&emsp;Details Form&emsp;&emsp;&emsp;&emsp;&emsp;</p>
-        <form>
-            <table class="f">
+    <div id="parent">
+        <p id="heading">Details form</p>
+
+        <div id="view">
+            <hr />
+            <table>
                 <tr>
+                    <td><label for="Name">Name:</label></td>
+                    <td><input type="text" id="Name" name="name" minlength="3" /></td>
+                </tr>
+                <tr>
+                    <td><label for="mob_no">Mob.no:</label></td>
                     <td>
-                        Name:
-                    </td>
-                    <td>
-                        <input type="text" minlength="3" required id="1">
+                        <input type="text" id="mob_no" name="mob_no" minlength="10" />
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        Mob No. :
-                    </td>
-                    <td>
-                        <input type="tel" id="2" pattern="^\d{10}$" required>
-                    </td>
+                    <td><label for="email">Email Id:</label></td>
+                    <td><input type="email" id="email" name="email" /></td>
                 </tr>
                 <tr>
-                    <td>
-                        Email ID:
-                    </td>
-                    <td>
-                        <input type="email" id="3" required>
+                    <td colspan="2">
+                        <input type="submit" value="Submit" onclick="ADDuser()" class="btn" />
                     </td>
                 </tr>
+
             </table>
-            <br>
-            <button class="btn1">SUBMIT</button>
-        </form>
-        <br>
-        <p class=head>&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;
-        </p>
 
-        <table class="t">
-            <tr>
-                <td>Name</td>
-                <td>Mob. No.</td>
-                <td>Email ID</td>
-                <td>&emsp;&emsp;</td>
-            </tr>
+        </div>
+        <hr />
+        <diV>
 
-        </table>
-    </div>
+            <div id="result_div">
+                <table id="result_table">
+                    <tr>
+                        <td>Name:</td>
+                        <td>Mob No:</td>
+                        <td>Email:</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
 
-
-    <script src="index.js"></script>
-</body>
+        <body>
+            <script src="index.js"></script>
 
 </html>

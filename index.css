@@ -1,31 +1,66 @@
-.main {
-    background-color: rgb(204, 204, 255);
-    margin: auto;
-    width: 35%;
-    border: 3px solid black;
-    padding: 10px;
-    text-align: center;
-}
-
-.head {
-    text-decoration: underline;
-}
-
-.f {
-    margin: auto;
-    border-collapse: separate;
-    border-spacing: 15px;
-    text-align: right;
-}
-
-.btn1 {
-    background-color: rgb(255, 183, 111);
-    font-weight: bold;
-    width: 202px;
-}
-
-.t {}
-
-.tb {
-    border-collapse: separate;
-}
+                                                                                           button {
+                                                                                               background-color: rgb(239, 228, 176);
+                                                                                           }
+                                                                                           
+                                                                                           .btn {
+                                                                                               background-color: rgb(255, 183, 111);
+                                                                                               font-weight: bold;
+                                                                                               width: 100px;
+                                                                                               text-align: center;
+                                                                                           }
+                                                                                           
+                                                                                           form {
+                                                                                               background-color: rgb(181, 204, 247);
+                                                                                               border: solid;
+                                                                                               padding-left: 15px;
+                                                                                               width: 30%;
+                                                                                               height: 60%;
+                                                                                               margin: auto;
+                                                                                           }
+                                                                                           
+                                                                                           hr {
+                                                                                               color: black;
+                                                                                           }
+                                                                                           
+                                                                                           body {
+                                                                                               font-family: Calibri;
+                                                                                           }
+                                                                                           
+                                                                                           #parent {
+                                                                                               background-color: rgb(204, 204, 255);
+                                                                                               margin: auto;
+                                                                                               width: 75%;
+                                                                                               border: 3px solid black;
+                                                                                               padding: 10px;
+                                                                                               text-align: center;
+                                                                                           }
+                                                                                           
+                                                                                           #heading {
+                                                                                               text-align: center;
+                                                                                           }
+                                                                                           
+                                                                                           hr {
+                                                                                               background-color: black;
+                                                                                               border: 1px solid black;
+                                                                                           }
+                                                                                           
+                                                                                           #view {
+                                                                                               width: 60%;
+                                                                                               align: center;
+                                                                                               margin: auto;
+                                                                                               padding: 5px;
+                                                                                           }
+                                                                                           
+                                                                                           #result_div {
+                                                                                               width: 50%;
+                                                                                               align: center;
+                                                                                               margin: auto;
+                                                                                               padding: 5px;
+                                                                                               text-align: center;
+                                                                                           }
+                                                                                           
+                                                                                           #result_table {
+                                                                                               border-spacing: 10px;
+                                                                                           }
+                                                                                           
+                                                                                           #result_table tr td {}
